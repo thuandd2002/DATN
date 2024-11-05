@@ -1,0 +1,171 @@
+@import "./../../../library/bootstrap.css";
+@import "./../partials/base";
+@import "./../partials/top_nav";
+@import "./../partials/breadcrumb";
+.tax-title {
+    font-size: 18px;
+    position: relative;
+    margin: 0 0 20px 0;
+}
+
+.tax-title strong {
+    color: #00BCD4;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-right: 20px;
+    display: inline-block;
+    z-index: 50;
+    background: url(../../images/icon-tax.png) no-repeat right center #fff;
+    position: relative;
+}
+
+.tab-content-title {
+    color: #171717;
+    font-size: 18px;
+}
+
+.nav__product {
+    background: white;
+    display: block;
+    padding-bottom: 10px;
+    position: fixed;
+    z-index: 999;
+    ul {
+        li {
+            a {
+                display: block;
+                padding-top: 7px;
+                padding-left: 7px;
+                color: #4285F4;
+            }
+        }
+    }
+}
+
+.info__product {
+    h4 {
+        font-size: 18px;
+        border: 1px solid #4267b2;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        border-radius: 5px;
+        color: #4267b2;
+    }
+    .info__product-description {
+        text-align: justify;
+        color: #444;
+        border-bottom: 1px solid #dedede;
+        padding-bottom: 15px;
+    }
+    .info__product-price {
+        padding: 15px 5px;
+        border: 1px solid #f2f2f2;
+        .info__product-item {
+            display: flex;
+            justify-content: space-between;
+            i {
+                font-size: 8px;
+                border: 1px solid #01bcd529;
+                color: #4267b2;
+                width: 15px;
+                height: 15px;
+                line-height: 15px;
+                text-align: center;
+                border-radius: 50%;
+            }
+        }
+        border-radius: 5px;
+        b {
+            color: #171717;
+        }
+        span {
+            &:last-child {
+                width: 50%;
+                text-align: left;
+            }
+        }
+    }
+}
+
+.info__contact {
+    margin-top: 10px;
+    h4 {
+        font-size: 18px;
+        border: 1px solid #4267b2;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        border-radius: 5px;
+        color: #4267b2;
+        position: relative;
+        i {
+            position: absolute;
+            right: 89px;
+            top: 10px;
+            border: 1px solid;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            font-size: 12px;
+            text-align: center;
+            line-height: 20px;
+        }
+    }
+    #info__contact-form {
+        input {
+            margin-top: 10px;
+            &:first-child {
+                //margin-top: 10px;
+            }
+            display: block;
+            width: 100%;
+            padding: 1.7rem 1rem!important;
+            font-size: 14px!important;
+            line-height: 1.5;
+            color: #5c6873;
+            background-color: #fff;
+            background-clip: padding-box;
+border: 1px solid #e4e7ea;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out,
+            box-shadow .15s ease-in-out;
+        }
+        #submit--info {
+            color: #fff;
+            width: 100%;
+            margin-top: 10px;
+            background-color: #4267b2;
+            border-color: #4267b2;
+            padding: 0.2rem 1.5rem;
+            line-height: 2.3;
+            border-radius: .2rem;
+            display: block;
+            text-align: center;
+            font-size: 13px;
+            clear: both;
+        }
+    }
+}
+
+#content .product-desc {
+    width: 400px;
+}
+
+#content .product-desc li {
+    margin: 20px 0;
+    display: flex;
+    justify-items: baseline;
+    align-items: baseline;
+    list-style: armenian;
+    color: black;
+}
+
+#content .product-desc li .title {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+#content .product-desc li>div {
+    width: 50%;
+}

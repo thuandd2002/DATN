@@ -1,0 +1,18 @@
+{
+    "/js/backend.min.js": "/js/backend.min.js",
+    "/css/base.min.css": "/css/base.min.css",
+    "/css/dropzone.min.css": "/css/dropzone.min.css",
+    "/frontend_static/css/home.min.css": "/frontend_static/css/home.min.css",
+    "/frontend_static/css/home_insight.min.css": "/frontend_static/css/home_insight.min.css",
+    "/frontend_static/css/product.min.css": "/frontend_static/css/product.min.css",
+    "/frontend_static/css/product_insight.min.css": "/frontend_static/css/product_insight.min.css",
+    "/frontend_static/css/product_detai.min.css": "/frontend_static/css/product_detai.min.css",
+    "/frontend_static/css/product_detail_insight.min.css": "/frontend_static/css/product_detail_insight.min.css",
+    "/frontend_static/css/article.min.css": "/frontend_static/css/article.min.css",
+    "/frontend_static/css/article_detail_insight.min.css": "/frontend_static/css/article_detail_insight.min.css",
+    "/frontend_static/css/article_detail.min.css": "/frontend_static/css/article_detail.min.css",
+    "/frontend_static/css/about.min.css": "/frontend_static/css/about.min.css",
+    "/frontend_static/css/about_insight.min.css": "/frontend_static/css/about_insight.min.css",
+    "/frontend_static/js/app.min.js": "/frontend_static/js/app.min.js",
+    "/css/backend.min.css": "/css/backend.min.css"
+}

@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-rotate-90 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.fa-rotate-180 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+.fa-spin {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+}
+.fa-pulse {
+    -webkit-animation: fa-spin 1s infinite steps(8);
+    animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+
+.fa-facebook:before {
+    content: "\f09a";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-linkedin:before {
+    content: "\f0e1";
+}
+.fa-pinterest:before {
+    content: "\f0d2";
+}
+.fa-behance:before {
+    content: "\f1b4";
+}
+.fa-eye:before {
+    content: "\f06e";
+}
+.fa-calendar:before {
+    content: "\f073";
+}
+.fa-dollar:before,
+.fa-usd:before {
+    content: "\f155";
+}
+.fa-map-marker:before {
+    content: "\f041";
+}
+.fa-google-plus:before {
+    content: "\f0d5";
+}
+.fa-comment:before {
+    content: "\f075";
+}
+.fa-search:before {
+    content: "\f002";
+}
+.fa-flag:before {
+    content: "\f024";
+}
+.fa-archive:before {
+    content: "\f187";
+}
+.fa-star:before {
+    content: "\f005";
+}
+
+.fa-bars:before {
+    content: "\f0c9";
+}
+.fa-phone:before {
+    content: "\f095";
+}
+.fa-envelope-o:before {
+    content: "\f003";
+}
+.fa-save:before,
+.fa-floppy-o:before {
+    content: "\f0c7";
+}
+.fa-clock-o:before {
+    content: "\f017";
+}
+.fa-user:before {
+    content: "\f007";
+}
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+    content: "\f00d";
+}
+.fa-youtube:before {
+    content: "\f167";
+}
+.fa-chevron-up:before {
+    content: "\f077";
+}
+.fa-check:before {
+    content: "\f00c";
+}
+.fa-home:before {
+    content: "\f015";
+}
+.fa-angle-down:before {
+    content: "\f107";
+}
+.fa-spinner:before {
+    content: "\f110";
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+}

@@ -1,0 +1,45 @@
+@import "./../../../library/bootstrap.css";
+@import "./../partials/base";
+@import "./../partials/top_nav";
+@import "./../partials/breadcrumb";
+
+.tax-m_description { display: none}
+
+.tax-title {
+    font-size: 18px;
+    position: relative;
+    margin: 0 0 20px 0;
+}
+.tax-title strong {
+    color: #4267b2;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-right: 20px;
+    display: inline-block;
+    z-index: 50;
+    background: url(../../images/icon-tax.png) no-repeat right center #fff;
+    position: relative;
+}
+
+.product-title {
+    font-size: 14px;
+    margin: 5px 0 5px 0;
+}
+.product-title a {
+    color: #212121;
+}
+.product-price {
+    color: #fb256a;
+    margin-bottom: 0;
+}
+//.product-item:nth-child(4n+1) {
+//    clear: both;
+//}
+.product-item {
+    text-align: center;
+    padding:15px;
+    border: 1px solid #f2f2f285 !important;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    /*margin-right:10px;*/
+}
+

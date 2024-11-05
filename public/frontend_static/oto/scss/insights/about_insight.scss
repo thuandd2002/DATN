@@ -1,0 +1,20 @@
+@import "./../../../library/bootstrap.css";
+@import "./../partials/base";
+@import "./../partials/top_nav";
+@import "./../partials/breadcrumb";
+
+.tax-title {
+    font-size: 18px;
+    position: relative;
+    margin: 0 0 20px 0;
+}
+.tax-title strong {
+    color: #00BCD4;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-right: 20px;
+    display: inline-block;
+    z-index: 50;
+    background: url(../../images/icon-tax.png) no-repeat right center #fff;
+    position: relative;
+}

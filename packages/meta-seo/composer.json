@@ -1,0 +1,12 @@
+{
+    "name": "mac/meta-seo",
+    "description": "meta seo test hihi",
+    "authors": [
+        {
+            "name": "TrungPhuNA",
+            "email": "phupt.humg.94@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

@@ -1,0 +1,110 @@
+.footer-menu{
+    background: #4267b2;
+}
+.footer-menu ul{
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+.footer-menu ul li{
+    display: inline-block;
+}
+.footer-menu ul li a{
+    color: #fff;
+    display: block;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.footer-menu ul li a:hover{
+    color: #ffff00;
+}
+.footer-bottom{
+    background: #4267b2;
+    color: #eee;
+    font-size: 13px;
+    padding: 20px 0 15px 0;
+}
+.footer-bottom p{
+    margin-bottom: 3px;
+}
+.footer-left{
+    position: relative;
+    padding-left: 220px;
+}
+.logo-footer{
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.footer-left p{
+    color: #fff;
+}
+
+
+//BACK TOP
+#bttop {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    bottom: 49px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    z-index: 999999;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -o-border-radius: 10%;
+    border-radius: 10%;
+    opacity: 0.8;
+    background: #4267b2;
+}
+
+#success--footer {
+    color: #fff;
+    background-color: #4267b2;
+    border-color: #4267b2;
+    padding: 0.2rem 1.5rem;
+    line-height: 2.3;
+    border-radius: .2rem;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    clear: both;
+}
+
+#success--footer:hover {
+    color: white;
+}
+#form--footer-info .form-group { margin-bottom: 10px;}
+#form--footer-info input, #form--footer-info select {
+    padding: 16px !important;
+}
+
+.footer--item {
+    color: white;
+    p { color: white !important;}
+    .footer--title {
+        margin-bottom: 0;
+        padding-bottom: 15px;
+    }
+
+    ul
+    {
+        li {
+            a {
+                display: block;
+                padding: 3px 0;
+            }
+        }
+    }
+}
